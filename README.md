@@ -10,6 +10,12 @@
 
 You can use the examples in the subsection below to use the tools.
 
+## INSTALLATION
+
+```javascript
+npm i fivem-utils
+```
+
 ## isEnvBrowser
 
 - Checks whether the development environment is a browser.
