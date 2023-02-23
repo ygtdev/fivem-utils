@@ -93,3 +93,7 @@ debugData(
   500
 );
 ```
+
+## License
+
+[MIT](https://choosealicense.com/licenses/mit/)
