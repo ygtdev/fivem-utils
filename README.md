@@ -1,8 +1,16 @@
+## Description
+
+🧰 Frontend tools to write plugin development easier for FiveM.
+
+## Discord Server
+
+<a href="https://discord.gg/CCExrpU"><img src="https://invidget.switchblade.xyz/765378158043332618"/></a>
+
 ## Example Uses
 
 You can use the examples in the subsection below to use the tools.
 
-### isEnvBrowser
+## isEnvBrowser
 
 - Checks whether the development environment is a browser.
 
@@ -10,7 +18,7 @@ You can use the examples in the subsection below to use the tools.
 isEnvBrowser(): boolean;
 ```
 
-Usage
+- Usage
 
 ```javascript
 // import
@@ -20,7 +28,7 @@ const browser = isEnvBrowser();
 console.log(browser); // returns true if the page developed is open in the browser.
 ```
 
-### useNuiEvent
+## useNuiEvent
 
 - Allows you to listen to nui callbacks.
 
@@ -28,7 +36,7 @@ console.log(browser); // returns true if the page developed is open in the brows
 useNuiEvent(handler: (data: unknown) => void): void;
 ```
 
-Usage
+- Usage
 
 ```javascript
 // import
@@ -38,7 +46,7 @@ useNuiEvent((event) => {
 });
 ```
 
-### fetchNui
+## fetchNui
 
 - Allows you to send requests to the client side.
 
@@ -46,7 +54,7 @@ useNuiEvent((event) => {
 fetchNui(eventName: string, data: object): any;
 ```
 
-Usage
+- Usage
 
 ```javascript
 // import
@@ -62,7 +70,7 @@ fetchNui("test", {
   });
 ```
 
-### debugData
+## debugData
 
 - Simulates sending a callback by the client.
 
@@ -70,7 +78,7 @@ fetchNui("test", {
 debugData(data: object, delayTime: number): void;
 ```
 
-Usage
+- Usage
 
 ```javascript
 // import
