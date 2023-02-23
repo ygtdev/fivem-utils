@@ -2,10 +2,6 @@
 
 🧰 Frontend tools to write plugin development easier for FiveM.
 
-## Discord Server
-
-<a href="https://discord.gg/CCExrpU"><img src="https://invidget.switchblade.xyz/765378158043332618"/></a>
-
 ## Installation
 
 Using `npm`:
@@ -107,6 +103,10 @@ debugData(
   500
 );
 ```
+
+## Discord Server
+
+<a href="https://discord.gg/CCExrpU"><img src="https://invidget.switchblade.xyz/765378158043332618"/></a>
 
 ## License
 
