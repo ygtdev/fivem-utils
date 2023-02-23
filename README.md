@@ -6,15 +6,23 @@
 
 <a href="https://discord.gg/CCExrpU"><img src="https://invidget.switchblade.xyz/765378158043332618"/></a>
 
+## Installation
+
+Using `npm`:
+
+```
+npm install fivem-utils
+```
+
+Using `yarn`:
+
+```
+yarn add fivem-utils
+```
+
 ## Example Uses
 
 You can use the examples in the subsection below to use the tools.
-
-## INSTALLATION
-
-```javascript
-npm i fivem-utils
-```
 
 ## isEnvBrowser
 
